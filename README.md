@@ -1,5 +1,6 @@
 # vue-uploader
-
+Vue切片上传 
+根据https://cloud.tencent.com/developer/article/1647446 修改的
 ## Project setup
 ```
 yarn install
