@@ -6,7 +6,7 @@ module.exports = defineConfig({
     open: true, // 配置自动启动浏览器
     proxy: {
       '/api': {
-        target: 'http://172.16.1.152:9000', // 对应自己的接口
+        target: 'http://192.168.0.1:9000', // 对应自己的接口
         changeOrigin: true,
         ws: true,
         pathRewrite: {
